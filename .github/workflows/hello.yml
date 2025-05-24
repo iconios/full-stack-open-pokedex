@@ -13,6 +13,6 @@ jobs:
               run: |
                 echo "Hello World!"
                 echo "Now it is:" 
-                date --date='@2147483647'
+                date
                 echo "Directory content:"
                 ls -la
