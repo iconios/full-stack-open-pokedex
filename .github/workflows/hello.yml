@@ -12,7 +12,7 @@ jobs:
             - name: Say hello
               run: |
                 echo "Hello World!"
-                echo "date:" 
+                echo "Now it is:" 
                 date --date='@2147483647'
-                echo "list directory:"
+                echo "Directory content:"
                 ls -la
