@@ -21,4 +21,6 @@ jobs:
               run: npm run build
             - name: Test the app
               run: npm run test
+            - name: Playwright the app
+              run: npm run test:e2e
               
