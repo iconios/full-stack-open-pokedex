@@ -20,7 +20,7 @@ jobs:
             - name: Make a build
               run: npm run build
             - name: Start the Prod app
-              run: npm start-prod
+              run: npm run start-prod
             - name: Test the app
               run: npm run test
             - name: Playwright the app
